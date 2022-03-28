@@ -18,6 +18,7 @@ namespace _1911066079_HuynhDucHieu_BigSchool.Models
 
         public ICollection<Following> Followers { get; set; }
         public ICollection<Following> Followees { get; set; }
+
         public ApplicationUser()
         {
             Followers = new Collection<Following>();

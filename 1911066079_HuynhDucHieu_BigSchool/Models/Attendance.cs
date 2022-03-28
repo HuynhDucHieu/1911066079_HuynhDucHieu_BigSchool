@@ -10,14 +10,12 @@ namespace _1911066079_HuynhDucHieu_BigSchool.Models
     public class Attendance
     {
         public Course Course { get; set; }
-
         [Key]
         [Column(Order = 1)]
+        public int CourseId { get; set; }
         public ApplicationUser Attendee { get; set; }
-
         [Key]
         [Column(Order = 2)]
         public string AttendeeId { get; set; }
-        public int CourseId { get; internal set; }
     }
 }

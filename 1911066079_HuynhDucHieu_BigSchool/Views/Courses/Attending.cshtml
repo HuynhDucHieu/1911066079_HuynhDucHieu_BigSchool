@@ -1,4 +1,4 @@
-﻿@model _1911066079_HuynhDucHieu_BigSchool.ViewModels.CourseViewModel
+﻿@model _1911066079_HuynhDucHieu_BigSchool.ViewModels.CoursesViewModel
 @{
     ViewBag.Title = "Attending";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -22,13 +22,19 @@
                 <span class="lecturer">
                     @course.Lecturer.Name
                     @if (Model.ShowAction)
-                    {<button class="btn btn-default btn-sm js-toggle-follow" data-user-id="@course.LecturerId">Follow</button>}
+                    {
+                        <button class="btn btn-default btn-sm js-toggle-follow" data-user-id="@course.LecturerId">
+                            Follow
+                        </button>
+                    }
                 </span>
                 <span class="category">
                     @course.Category.Name
                 </span>
                 @if (Model.ShowAction)
-                {<button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going</button>}
+                {
+                    <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
+                }
             </div>
         </li>
     }

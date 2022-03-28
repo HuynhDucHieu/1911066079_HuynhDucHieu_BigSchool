@@ -27,6 +27,7 @@ namespace _1911066079_HuynhDucHieu_BigSchool.Models
     {
         [Required]
         public string Provider { get; set; }
+
         [Required]
         [Display(Name = "Code")]
         public string Code { get; set; }

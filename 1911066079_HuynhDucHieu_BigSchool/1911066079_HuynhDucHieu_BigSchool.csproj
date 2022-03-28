@@ -206,9 +206,9 @@
     <Compile Include="Migrations\202203260443333_AddNameColumnToApplicationUser.Designer.cs">
       <DependentUpon>202203260443333_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202203271324381_AddNameColumnToApplicationUser1.cs" />
-    <Compile Include="Migrations\202203271324381_AddNameColumnToApplicationUser1.Designer.cs">
-      <DependentUpon>202203271324381_AddNameColumnToApplicationUser1.cs</DependentUpon>
+    <Compile Include="Migrations\202203280753259_AddAttendance.cs" />
+    <Compile Include="Migrations\202203280753259_AddAttendance.Designer.cs">
+      <DependentUpon>202203280753259_AddAttendance.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -221,6 +221,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CoursesViewModel.cs" />
     <Compile Include="ViewModels\CourseViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
@@ -313,8 +314,8 @@
     <EmbeddedResource Include="Migrations\202203260443333_AddNameColumnToApplicationUser.resx">
       <DependentUpon>202203260443333_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202203271324381_AddNameColumnToApplicationUser1.resx">
-      <DependentUpon>202203271324381_AddNameColumnToApplicationUser1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202203280753259_AddAttendance.resx">
+      <DependentUpon>202203280753259_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -21,5 +21,4 @@ namespace _1911066079_HuynhDucHieu_BigSchool.Models
         [Required]
         public byte CategoryId { get; set; } 
     }
-   
 }
