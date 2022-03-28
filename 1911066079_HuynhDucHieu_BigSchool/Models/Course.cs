@@ -17,7 +17,7 @@ namespace _1911066079_HuynhDucHieu_BigSchool.Models
         [StringLength(255)]
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
-        public Category Category { get; set; }
+        public  Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; } 
     }

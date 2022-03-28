@@ -9,11 +9,15 @@ namespace _1911066079_HuynhDucHieu_BigSchool.ViewModels
 {
     public class CourseViewModel
     {
+        public IEnumerable<Course> UpcommingCourses { get; set; }
+        public bool ShowAction { get; set; }
         [Required]
         public string Place { get; set; }
         [Required]
+        [FutureDate]
         public string Date { get; set; }
         [Required]
+        [ValidTime]
         public string Time { get; set; }
         [Required]
         public byte Category { get; set; }
